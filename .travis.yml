@@ -4,7 +4,7 @@ matrix:
       sudo: false
       os:
         - linux
-      matrix:
+      jobs:
         include:
           - smalltalk: Pharo-6.1
           - smalltalk: Pharo-7.0
