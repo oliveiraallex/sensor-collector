@@ -1,16 +1,14 @@
-matrix:
+jobs:
   include:
-    - jobs:
-        include:
-          - smalltalk: Pharo-6.1
-          - smalltalk: Pharo-7.0
-          - smalltalk: Pharo64-7.0
-          - smalltalk: Pharo32-8.0
-          - smalltalk: Pharo32-9.0
-          - smalltalk: Pharo64-9.0
-        language: smalltalk
-        sudo: false
-        os: linux
+    - smalltalk: Pharo-6.1
+    - smalltalk: Pharo-7.0
+    - smalltalk: Pharo64-7.0
+    - smalltalk: Pharo32-8.0
+    - smalltalk: Pharo32-9.0
+    - smalltalk: Pharo64-9.0
+    - language: smalltalk
+    - sudo: false
+    - os: linux
 
     - language: c
       addons:
