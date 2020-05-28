@@ -6,15 +6,11 @@ matrix:
         - linux
       smalltalk:
         - Pharo-6.1
-      smalltalk:
         - Pharo-7.0
-      smalltalk:
         - Pharo64-7.0
       smalltalk:
         - Pharo32-8.0
-      smalltalk:
         - Pharo32-9.0
-      smalltalk:
         - Pharo64-9.0
 
     - language: c
