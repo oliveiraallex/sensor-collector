@@ -6,39 +6,14 @@ matrix:
         - linux
       smalltalk:
         - Pharo-6.1
-
-    - language: smalltalk
-      sudo: false
-      os:
-        - linux
       smalltalk:
         - Pharo-7.0
-
-    - language: smalltalk
-      sudo: false
-      os:
-        - linux
       smalltalk:
         - Pharo64-7.0
-
-    - language: smalltalk
-      sudo: false
-      os:
-        - linux
       smalltalk:
         - Pharo32-8.0
-
-    - language: smalltalk
-      sudo: false
-      os:
-        - linux
       smalltalk:
         - Pharo32-9.0
-
-    - language: smalltalk
-      sudo: false
-      os:
-        - linux
       smalltalk:
         - Pharo64-9.0
 
