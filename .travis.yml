@@ -1,6 +1,6 @@
 jobs:
   include:
-    language: smalltalk
+    - language: smalltalk
     sudo: false
     os: linux
     - smalltalk: Pharo-6.1
